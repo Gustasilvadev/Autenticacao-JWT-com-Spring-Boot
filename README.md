@@ -116,8 +116,11 @@ Este sistema de autenticação requer que as roles sejam inseridas manualmente n
 
 ## 🗂️ Script SQL para Popular o Banco
 # Conectar ao MySQL (substitua com suas credenciais)
+
 cd bin
+
 cd mysql
+
 mysql -u seu_usuario(root) -p
 
 # Selecionar o banco de dados correto
