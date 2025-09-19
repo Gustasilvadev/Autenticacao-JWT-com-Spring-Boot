@@ -17,9 +17,9 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("GetMoney API")
+                        .title("Autenticacao API")
                         .version("1.0")
-                        .description("API do Sistema GetMoney"))
+                        .description("API do Sistema de Autenticacao"))
                 .addSecurityItem(new SecurityRequirement().addList("JWT"))
                 .components(new Components()
                         .addSecuritySchemes("JWT",
